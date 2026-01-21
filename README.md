@@ -1,26 +1,21 @@
 # Student Mental Health Companion (Streamlit + Gemini)
 
-A professional, supportive mental health companion for students, powered by **Google Gemini** and **Streamlit**.  
+A professional, supportive mental health companion for students.  
 Includes quick prompts, basic crisis guidance, session-only mood check-ins, and a small statistics visualization.
 
 ---
 
-## ✨ Features
+## Features
 
-- Chatbot guidance for:
-  - Stress  
-  - Anxiety  
-  - Academic pressure  
-  - Sleep  
-  - Self-care  
-- Crisis awareness: highlights resources if risky keywords are detected  
+- Chatbot guidance for stress, anxiety, academic pressure, sleep, and self-care  
+- Crisis awareness with emergency resource suggestions  
 - Quick prompts for common student concerns  
-- Session-only mood check-in and simple trend chart  
-- Statistics section (WHO and CDC YRBS examples) with an Altair chart  
+- Session-only mood check-in with simple trend chart  
+- Statistics section with sample WHO and CDC data  
 
 ---
 
-## ⚠ Important Notice
+## Important Notice
 
 This app is **not a substitute for professional help**.  
 If you're in immediate danger or considering harming yourself:
@@ -30,19 +25,33 @@ If you're in immediate danger or considering harming yourself:
 
 ---
 
-## 🛠 Prerequisites
+## About the Project
 
-- Python 3.9+
-- A Google API key with access to the Gemini API
+This project is a student-focused mental health companion designed to provide supportive guidance and awareness using modern AI technology.
 
 ---
 
-## 🚀 Setup
+## Data & Privacy
 
-### 1. Create and activate a virtual environment (recommended)
+- Conversations are stored only for the current session  
+- No personal data is saved permanently  
 
-#### PowerShell (Windows)
+---
 
-```bash
-python -m venv .venv
-.\.venv\Scripts\Activate.ps1
+## Example Statistics
+
+- **WHO (2021):** 1 in 7 adolescents experience a mental disorder  
+- **CDC YRBS (2021):** 42% felt persistent sadness, ~22% considered suicide  
+
+---
+
+## Disclaimer
+
+This application is for educational purposes only.  
+Always consult a qualified mental health professional for serious concerns.
+
+---
+
+## License
+
+Educational use only.
